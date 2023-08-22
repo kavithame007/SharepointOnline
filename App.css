@@ -1,0 +1,212 @@
+.app {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #f8f9fd;
+}
+
+input[type="text"],
+input[type="password"] {
+  top: 511px;
+left: 790px;
+  width: 340px;
+height: 42px;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #CFD4E9;
+border-radius: 4px;
+opacity: 1;
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+  /* UI Properties */
+  background: #02ACF6 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  width: 340px;
+  height: 42px;
+  border: 1px solid #02ACF6;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+  background: #02ACF6;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  background-color: white;
+  padding-bottom: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+
+.title
+{
+  top: 277px;
+left: 750px;
+width: 420px;
+height: 150px;
+/* UI Properties */
+background: #121B45 0% 0% no-repeat padding-box;
+/*border-radius: 4px 4px 0px 0px;*/
+opacity: 1;
+}
+.App-logo
+{
+  width: 100%;
+  height: 50%;
+  margin-top: 30px;
+}
+.Logintext
+{
+text-align: center;
+font: normal normal bold 20px/24px Montserrat;
+letter-spacing: 0px;
+color: #121B45;
+opacity: 1;
+}
+.app {
+  background-image: url('C:\Users\kavitha.jeyaraj\Downloads\MicrosoftTeams-image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.createacc
+{
+text-align: left;
+font: normal normal medium 16px/19px Montserrat;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+margin: 0px;
+}
+.signup{
+  text-align: left;
+  font: normal normal 600 16px/19px Montserrat;
+  letter-spacing: 0px;
+  color: #02ACF6;
+  opacity: 1;
+}
+.signalign{
+  display:flex;
+  gap: 15px;
+}
+.copyright{
+width: 358px;
+height: 18px;
+text-align: center;
+font: normal normal medium 14px/18px Montserrat;
+letter-spacing: 0px;
+color: #F6F7FC;
+opacity: 1;
+bottom: 0%;
+position: fixed;
+}
+.form-c{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* form style*/
+.forgotpw{
+  text-align: center;
+}
+.fa-user,.fa-lock {
+  background: white !important;
+  color: gray !important;
+}
+
+.join-login-form {
+  background-color: #202027;
+  width: 50vw;
+  max-width: 50%;
+  padding: 2rem 4rem;
+  border-radius: 20px;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.input-group label{
+  color : #fff;
+  font-family : tahoma;
+}
+.input-group span{
+  color : #888;
+  font-family : tahoma;
+  font-size: 11px;
+}
+.input-icon-container{
+  display: flex;
+    flex-direction: row;
+    top: 511px;
+    border: 1px solid #CFD4E9;
+    /* width: 300px; */
+    /* margin-bottom: 10px; */
+    /* padding: 10px; */
+    text-align: center;
+}
+.input-icon-container.error{
+  border: 1px solid red;
+  background : #fdd3d3;
+}
+.input-icon-container input {
+  outline: none;
+  border: none;
+  background: none;
+  font-size: 1em;
+  padding: .5em;
+  color: inherit;
+  flex : auto 1 1;
+  width : 100%;
+  background : none;
+  background-color : transperant;
+}
+
+.input-icon-container .fa{
+  padding : 10px;
+}
+
+.fa.fa-user{
+  background : #374669;
+  color: #fff;
+}
